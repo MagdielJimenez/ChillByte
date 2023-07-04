@@ -1,0 +1,44 @@
+<template>
+  <div id="app">
+    <!-- <img alt="Vue logo" src="./assets/chillbytelogohorizontal.png"> -->
+    <b-container-fluid>
+      <div class="img-first-cover">
+        <NavBar />
+        <b-row>
+          <b-col>
+            <div>
+              <h1 class="mmt-4">Tu idea y negocio plasmado al mundo de manera única.</h1>
+              <h2>Somos los indicados para llevar tu negocio o idea a otro nivel</h2>
+              <button
+                type="button"
+                class="btn btn-outline-light mt-4 py-2 px-3 btnCorners"
+              >
+                <span style="font-size: 22px">Quiero información</span>
+              </button>
+            </div>
+          </b-col>
+        </b-row>
+      </div>
+    </b-container-fluid>
+    <AnimatedBanner />
+    <FundamentalCards />
+  </div>
+</template>
+
+<script>
+import NavBar from "./components/Template/NavBar.vue";
+import AnimatedBanner from "./components/Homepage/AnimatedBanner.vue";
+import FundamentalCards from "./components/Homepage/CardsFundamentals";
+export default {
+  name: "App",
+  components: {
+    NavBar: NavBar,
+    AnimatedBanner: AnimatedBanner,
+    FundamentalCards: FundamentalCards,
+  },
+};
+</script>
+
+<style lang="scss">
+@import "./assets/styles/styles.scss";
+</style>
