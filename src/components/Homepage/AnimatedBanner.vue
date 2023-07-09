@@ -1,6 +1,6 @@
 <template>
   <div id="animatedBanner">
-  <b-container class="d-block">
+  <b-container class="w-100 m-0 p-0 mx-0 animatedBannerContainer">
     <span class="firstText">Somos
       <vue-typer
         :text="['creatividad', 'planeación', 'oportunidad', 'ingenio', 'eficiencia']"

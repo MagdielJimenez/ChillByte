@@ -7,11 +7,11 @@
         <b-row>
           <b-col>
             <div>
-              <h1 class="mmt-4">Tu idea y negocio plasmado al mundo de manera única.</h1>
-              <h2>Somos los indicados para llevar tu negocio o idea a otro nivel</h2>
+              <h1 class="mmt-4 ml-2">Tu idea y negocio plasmado al mundo de manera única.</h1>
+              <h2 class="ml-2">Somos los indicados para llevar tu negocio o idea a otro nivel</h2>
               <button
                 type="button"
-                class="btn btn-outline-light mt-4 py-2 px-3 btnCorners"
+                class="btn btn-outline-light mt-4 py-2 px-3 btnCorners ml-2"
               >
                 <span style="font-size: 22px">Quiero información</span>
               </button>
