@@ -168,7 +168,7 @@ h1 {
 .card {
     background-color: #000000 !important;
     border-radius: 0px !important;
-    border: 1px solid #7c7c7c !important;
+    border: 1px solid #353434 !important;
 
     img {
         padding-left: 10px !important;
@@ -180,4 +180,13 @@ h1 {
         font-weight: 500;
         font-size: 1.6rem;
     }
+}
+.text-purple{
+    color:$purple;
+}
+.text-blue{
+    color: $blue;
+}
+.text-orange{
+    color:$orange;
 }
