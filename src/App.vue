@@ -23,6 +23,7 @@
     <AnimatedBanner />
     <FundamentalCards />
     <NuestrosClientes/>
+    <EquipoChillByte/>
   </div>
 </template>
 
@@ -31,13 +32,15 @@ import NavBar from "./components/Template/NavBar.vue";
 import AnimatedBanner from "./components/Homepage/AnimatedBanner.vue";
 import FundamentalCards from "./components/Homepage/CardsFundamentals";
 import NuestrosClientes from './components/Homepage/NuestrosClientes.vue';
+import EquipoChillByte from './components/Homepage/EquipoChillByte.vue';
 export default {
   name: "App",
   components: {
     NavBar: NavBar,
     AnimatedBanner: AnimatedBanner,
     FundamentalCards: FundamentalCards,
-    NuestrosClientes:NuestrosClientes
+    NuestrosClientes:NuestrosClientes,
+    EquipoChillByte:EquipoChillByte
   },
 };
 </script>
