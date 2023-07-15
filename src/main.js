@@ -1,6 +1,7 @@
-import Vue from 'vue'
+import Vue,{Transition} from 'vue'
 import App from './App.vue'
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+import Scrollactive from 'vue-scrollactive';
 
 // Import Bootstrap and BootstrapVue CSS files (order is important)
 import 'bootstrap/dist/css/bootstrap.css'
@@ -14,6 +15,8 @@ Vue.config.productionTip = false
 Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)
 Vue.use(VueTyperPlugin)
+Vue.component('transition',Transition);
+Vue.component('scrollactiveComp', Scrollactive);
 
 
 
