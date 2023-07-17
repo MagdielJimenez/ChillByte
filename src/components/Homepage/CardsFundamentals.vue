@@ -9,7 +9,7 @@
               img-src="https://firebasestorage.googleapis.com/v0/b/bloona-55051.appspot.com/o/iconoPlaneaci%C3%B3n.png?alt=media&token=0641c3b1-372d-4db7-a47d-fb350d9261e8"
               img-alt="Image" img-top tag="article" style="max-width: 20rem" class="mb-2">
               <b-card-text>
-                Marcamoss nuestros objetivos con fechas establecidas para poder entregarte en tiempo y forma.
+                Marcamos nuestros objetivos con fechas establecidas para poder entregarte en tiempo y forma.
               </b-card-text>
             </b-card>
           </div>

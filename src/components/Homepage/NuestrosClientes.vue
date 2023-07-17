@@ -1,6 +1,6 @@
 <template>
     <div id="NuestrosClientes" class="mt-4">
-        <h1 class="pl-2 thin"><span class="text-purple">Creamos</span> con nuestros clientes.</h1>
+        <h1 class="pr-2 thin h1-size" style="text-align: right;"><span class="text-purple">Creamos</span> con nuestros clientes.</h1>
         <b-container>
             <b-row class="mt-4">
                 <b-col md="3" sm="4" class="d-flex align-content-end justify-content-center mb-3">

@@ -193,6 +193,12 @@ h1 {
 .pl-2{
     padding-left: 20px;
 }
+.pr-2{
+    padding-right: 20px;
+}
 .thin{
     font-weight: 300;
+}
+.h1-size{
+    font-size:  calc(1.8rem + 1.5vw) !important;
 }
