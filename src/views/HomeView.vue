@@ -20,6 +20,7 @@
         <FundamentalCards />
         <NuestrosClientes />
         <EquipoChillByte />
+        <FooterChillByte/>
     </div>
 </template>
 <script>
@@ -28,6 +29,7 @@ import AnimatedBanner from "../components/Homepage/AnimatedBanner.vue";
 import FundamentalCards from "../components/Homepage/CardsFundamentals";
 import NuestrosClientes from '../components/Homepage/NuestrosClientes.vue';
 import EquipoChillByte from '../components/Homepage/EquipoChillByte.vue';
+import Footer from '../components/Template/Footer.vue'
 export default {
     name: "HomeView",
     components: {
@@ -35,7 +37,8 @@ export default {
         AnimatedBanner: AnimatedBanner,
         FundamentalCards: FundamentalCards,
         NuestrosClientes: NuestrosClientes,
-        EquipoChillByte: EquipoChillByte
+        EquipoChillByte: EquipoChillByte,
+        FooterChillByte:Footer
     },
 };
 </script>
