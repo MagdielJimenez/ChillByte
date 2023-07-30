@@ -20,6 +20,7 @@
         <FundamentalCards />
         <NuestrosClientes />
         <EquipoChillByte />
+        <ContactForm/>
         <FooterChillByte/>
     </div>
 </template>
@@ -30,6 +31,7 @@ import FundamentalCards from "../components/Homepage/CardsFundamentals";
 import NuestrosClientes from '../components/Homepage/NuestrosClientes.vue';
 import EquipoChillByte from '../components/Homepage/EquipoChillByte.vue';
 import Footer from '../components/Template/Footer.vue'
+import ContactForm from "@/components/Template/ContactForm.vue";
 export default {
     name: "HomeView",
     components: {
@@ -38,7 +40,8 @@ export default {
         FundamentalCards: FundamentalCards,
         NuestrosClientes: NuestrosClientes,
         EquipoChillByte: EquipoChillByte,
-        FooterChillByte:Footer
+        FooterChillByte:Footer,
+        ContactForm:ContactForm
     },
 };
 </script>

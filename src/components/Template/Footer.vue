@@ -1,5 +1,5 @@
 <template>
-    <div id="Footer">
+    <div id="Footer" style="border-top:1px solid #353434;">
         <b-container class="mt-4">
             <b-row>
                 <b-col >

@@ -1,9 +1,9 @@
 <template>
   <div id="CardsFundamentals">
 
-    <b-container fluid>
-      <b-row>
-        <b-col sm="12" md="3">
+    <div class="w-100 m-0 d-flex justify-content-center mx-0" style="margin-right:0px !important;">
+      <b-row class="w-100 d-flex justify-content-center">
+        <b-col sm="12" md="3" class="d-flex justify-content-center">
           <div v-if="isVisible" class="bounce-in-down-enter-active" >
             <b-card title="Planeación"
               img-src="https://firebasestorage.googleapis.com/v0/b/bloona-55051.appspot.com/o/iconoPlaneaci%C3%B3n.png?alt=media&token=0641c3b1-372d-4db7-a47d-fb350d9261e8"
@@ -15,7 +15,7 @@
           </div>
 
         </b-col>
-        <b-col sm="12" md="3">
+        <b-col sm="12" md="3" class="d-flex justify-content-center">
           <div v-if="secondIsVisible" class="bounce-in-down-enter-active">
             <b-card title="Calidad"
               img-src="https://firebasestorage.googleapis.com/v0/b/bloona-55051.appspot.com/o/iconoCalidad.png?alt=media&token=0051a605-8c88-497d-8218-1958efb5439c"
@@ -26,7 +26,7 @@
             </b-card>
           </div>
         </b-col>
-        <b-col sm="12" md="3">
+        <b-col sm="12" md="3" class="d-flex justify-content-center">
           <div v-if="thirdIsVisible" class="bounce-in-down-enter-active" >
 
             <b-card title="Orientación al cliente"
@@ -38,7 +38,7 @@
             </b-card>
           </div>
         </b-col>
-        <b-col sm="12" md="3">
+        <b-col sm="12" md="3" class="d-flex justify-content-center">
           <div v-if="fourthIsVisible" class="bounce-in-down-enter-active">
 
             <b-card title="Responsabilidad social"
@@ -51,7 +51,7 @@
           </div>
         </b-col>
       </b-row>
-    </b-container>
+    </div>
   </div>
 </template>
 
