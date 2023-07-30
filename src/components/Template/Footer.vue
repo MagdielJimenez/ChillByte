@@ -20,10 +20,22 @@
                         <font-awesome-icon icon="fa-regular fa-envelope" /> info@chillbytesolutions.com
                     </p>
                 </b-col>
-                <b-col class="d-flex justify-content-center">
-                    <a class="text-purple" href="https://www.instagram.com/chill.byte/" style="text-decoration: none;">
-                        <font-awesome-icon icon="fa-brands fa-instagram" /> chill.byte
-                    </a>
+                <b-col>
+                    
+                    <b-row>
+                        <b-col class="d-flex justify-content-center">
+                            <a class="text-purple" href="https://www.instagram.com/chill.byte/" style="text-decoration: none;">
+                                <font-awesome-icon icon="fa-brands fa-instagram" /> chill.byte
+                            </a>
+                        </b-col>
+                    </b-row>
+                    <b-row>
+                        <b-col class="d-flex justify-content-center">
+                            <a class="text-blue" href="https://www.facebook.com/profile.php?id=100095394246867" style="text-decoration: none;">
+                                <font-awesome-icon icon="fa-brands fa-facebook" /> Chill Byte
+                            </a>
+                        </b-col>
+                    </b-row>
 
                 </b-col>
             </b-row>

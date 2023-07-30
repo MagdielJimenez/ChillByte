@@ -17,7 +17,7 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 /* import specific icons */
-import { faWhatsapp,faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { faWhatsapp,faInstagram, faFacebook } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
 
 
@@ -31,6 +31,8 @@ Vue.component('scrollactiveComp', Scrollactive);
 library.add(faWhatsapp)
 library.add(faEnvelope)
 library.add(faInstagram)
+library.add(faFacebook)
+
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 const router=new VueRouter({

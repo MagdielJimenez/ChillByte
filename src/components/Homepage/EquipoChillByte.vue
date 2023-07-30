@@ -1,5 +1,5 @@
 <template>
-  <div id="EquipoChillByte" class="mt-4">
+  <div id="EquipoChillByte" class="mt-4" style="margin-bottom: 100px;">
     <h1 class="pl-2 thin h1-size">El equipo que lo hará <span class="text-purple">posible</span>.</h1>
     <b-container fluid>
       <b-row>

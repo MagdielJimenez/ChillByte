@@ -1,7 +1,7 @@
 <template>
   <div id="navBar">
     <b-navbar toggleable="lg" type="dark" class="d-flex justify-content-between" >
-      <b-navbar-brand href="#" class="pl-2">
+      <b-navbar-brand href="/" class="pl-2">
 
         <img
           class="d-inline-block align-top mx-3"
@@ -20,10 +20,10 @@
 
       <b-collapse id="nav-collapse" is-nav style="margin-right:20px;">
         <b-navbar-nav class="ml-auto">
-          <b-nav-item href="#"><span class="orangeColor">01.</span>HOME</b-nav-item>
-          <b-nav-item href="#"><span class="orangeColor">02.</span>ACERCA DE</b-nav-item>
-          <b-nav-item href="#"><span class="orangeColor">03.</span>COSTOS</b-nav-item>
-          <b-nav-item href="#"><span class="orangeColor">04.</span>CONTACTO</b-nav-item>
+          <b-nav-item href="/"><span class="orangeColor">01.</span>HOME</b-nav-item>
+           <b-nav-item href="#" disabled><span class="orangeColor">02.</span>ACERCA DE</b-nav-item>
+          <b-nav-item href="#" disabled><span class="orangeColor">03.</span>COSTOS</b-nav-item>
+          <b-nav-item href="#" disabled><span class="orangeColor">04.</span>CONTACTO</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>

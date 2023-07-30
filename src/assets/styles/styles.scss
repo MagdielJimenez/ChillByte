@@ -180,6 +180,9 @@ h1 {
         font-weight: 500;
         font-size: 1.6rem;
     }
+    &.no-border{
+        border: 0px !important;
+    }
 }
 .text-purple{
     color:$purple;
@@ -189,6 +192,12 @@ h1 {
 }
 .text-orange{
     color:$orange;
+}
+.text-green{
+    color:#00f080;
+}
+.text-red{
+    color:#c6190c;
 }
 .pl-2{
     padding-left: 20px;
@@ -218,4 +227,14 @@ input{
     border-radius: 1px !important;
     background-color: $blue !important;
     border: 1px solid $blue !important;
+}
+.btn-info{
+color: white;
+background-color: #000000 !important;
+&:hover a{
+    color: #000000 !important;
+}
+&:hover{
+    background-color: white !important;
+}
 }
