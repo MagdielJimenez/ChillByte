@@ -16,6 +16,7 @@
     "@fortawesome/vue-fontawesome": "^2.0.10",
     "bootstrap": "^5.2.3",
     "bootstrap-vue": "^2.23.1",
+    "chillbytedev2": "file:",
     "core-js": "^3.8.3",
     "node-sass": "^8.0.0",
     "sass-loader": "^13.2.2",
