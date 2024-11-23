@@ -3,7 +3,20 @@
         <h1 class="pr-2 thin h1-size" style="text-align: right;">Nuestros <span class="text-purple">Servicios</span>.</h1>
       <div class="w-100 m-0 d-flex justify-content-center mx-0" style="margin-right:0px !important;">
         <b-row class="w-100 d-flex justify-content-center">
-          <b-col sm="12" md="3" class="d-flex justify-content-center">
+          <b-col sm="12" md="2" class="d-flex justify-content-center">
+            <div v-if="isVisible" class="bounce-in-down-enter-active" >
+              <b-card title="Oracle Netsuite"
+                img-src="https://firebasestorage.googleapis.com/v0/b/bloona-55051.appspot.com/o/oracle%20netsuite.png?alt=media&token=e96c655c-6433-49b9-bc91-a0c8247d7cf4"
+                img-alt="Image" img-top tag="article" style="max-width: 20rem" class="mb-2 no-border">
+                
+                <b-card-text>
+                  Ofrecemos desarrollos e integraciones API para Oracle Netsuite. 
+                </b-card-text>
+              </b-card>
+            </div>
+  
+          </b-col>
+          <b-col sm="12" md="2" class="d-flex justify-content-center">
             <div v-if="isVisible" class="bounce-in-down-enter-active" >
               <b-card title="Páginas Web"
                 img-src="https://firebasestorage.googleapis.com/v0/b/bloona-55051.appspot.com/o/web2.png?alt=media&token=f0465a34-2218-4727-8b50-01bffbfbcad2"
@@ -16,7 +29,7 @@
             </div>
   
           </b-col>
-          <b-col sm="12" md="3" class="d-flex justify-content-center">
+          <b-col sm="12" md="2" class="d-flex justify-content-center">
             <div v-if="secondIsVisible" class="bounce-in-down-enter-active">
               <b-card title="Aplicaciones móviles"
                 img-src="https://firebasestorage.googleapis.com/v0/b/bloona-55051.appspot.com/o/movil2.png?alt=media&token=c4e67700-dc79-4f66-b48e-316e666da6e8"
@@ -27,7 +40,7 @@
               </b-card>
             </div>
           </b-col>
-          <b-col sm="12" md="3" class="d-flex justify-content-center">
+          <b-col sm="12" md="2" class="d-flex justify-content-center">
             <div v-if="thirdIsVisible" class="bounce-in-down-enter-active" >
   
               <b-card title="Fotografía y video"
@@ -39,7 +52,7 @@
               </b-card>
             </div>
           </b-col>
-          <b-col sm="12" md="3" class="d-flex justify-content-center">
+          <b-col sm="12" md="2" class="d-flex justify-content-center">
             <div v-if="fourthIsVisible" class="bounce-in-down-enter-active">
   
               <b-card title="Aprendizaje para todos"

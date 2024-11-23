@@ -208,6 +208,9 @@ h1 {
 .thin{
     font-weight: 300;
 }
+.align-text-center{
+    text-align: center;
+}
 .h1-size{
     font-size:  calc(1.8rem + 1.5vw) !important;
 }
@@ -237,4 +240,8 @@ background-color: #000000 !important;
 &:hover{
     background-color: white !important;
 }
+}
+.h3-text{
+    font-size: 1.3rem;
+    margin-bottom: 30px;
 }

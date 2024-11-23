@@ -22,7 +22,7 @@
         <b-navbar-nav class="ml-auto">
           <b-nav-item href="/"><span class="orangeColor">01.</span>HOME</b-nav-item>
            <b-nav-item href="#" disabled><span class="orangeColor">02.</span>ACERCA DE</b-nav-item>
-          <b-nav-item href="#" disabled><span class="orangeColor">03.</span>COSTOS</b-nav-item>
+          <b-nav-item href="/#costos" ><span class="orangeColor">03.</span>COSTOS</b-nav-item>
           <b-nav-item href="#" disabled><span class="orangeColor">04.</span>CONTACTO</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
